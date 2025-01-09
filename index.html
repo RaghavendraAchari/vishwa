@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.7/themes/odometer-theme-default.css"
+    integrity="sha512-kMPqFnKueEwgQFzXLEEl671aHhQqrZLS5IP3HzqdfozaST/EgU+/wkM07JCmXFAt9GO810I//8DBonsJUzGQsQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+    <title>Vishwa Engineering Works</title>
+</head>
+<body class="overflow-y-auto">
+    <header class="h-16 flex-none max-w-full w-full backdrop-blur-sm p-2 px-2 md:px-10 flex flex-row justify-between items-center bg-white bg-opacity-10 shadow sticky top-0 left-0 z-50">
+        <img src="/logo.png" alt="logo" class="h-10 md:h-14">
+        <div class="text-sm md:text-lg font-medium min-h-full items-center flex space-x-2 md:space-x-10 ">
+            <a href="/index.html" class="p-1 border-2 border-transparent hover:border-b-2 border-b-2 border-b-blue-400 hover:border-b-blue-400 transition-all duration-200 ">Home</a>
+            <a href="/projects.html" class="p-1 border-2 border-transparent hover:border-b-2 hover:border-b-blue-400">Projects</a>            
+            <a href="/contactus.html" class="p-1 border-2 border-transparent hover:border-b-2 hover:border-b-blue-400">
+                Contact us
+            </a>
+        </div>
+    </header>
+    
+    <section class="p-2 bg-[url('/welder.png')] bg-center md:bg-cover md:bg-[left_top_30%] md:bg-no-repeat h-[calc(100svh-100px)] w-full max-w-full md:p-10 relative overflow-x-auto flex items-end">
+        <div class="p-4 text-2xl w-full flex flex-col md:w-[50%] md:text-6xl font-extrabold text-white opacity-90 bg-opacity-20 bg-black rounded-3xl  shadow-sm space-y-4 ">
+            <h1 class="leading-tight w-full max-w-full text-wrap">We do all types of <br> metal and welding works</h1>
+
+            <div class="w-full flex flex-col space-y-2 md:space-y-0 md:flex-row md:space-x-2 ">
+                <a href="tel:+9731453933" class="flex items-center justify-center space-x-2 bg-gradient-to-r bg-blue-500 rounded-full text-base md:text-lg font-semibold p-2 px-4 hover:bg-opacity-90">
+                    <span class="leading-8">Contact now</span>
+                    <span><svg class="size-5" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M19.95 21q-3.125 0-6.175-1.362t-5.55-3.863t-3.862-5.55T3 4.05q0-.45.3-.75t.75-.3H8.1q.35 0 .625.238t.325.562l.65 3.5q.05.4-.025.675T9.4 8.45L6.975 10.9q.5.925 1.187 1.787t1.513 1.663q.775.775 1.625 1.438T13.1 17l2.35-2.35q.225-.225.588-.337t.712-.063l3.45.7q.35.1.575.363T21 15.9v4.05q0 .45-.3.75t-.75.3"/></svg></span>
+                </a>
+                <a href="/projects.html" class="flex items-center justify-center space-x-2 bg-gradient-to-r bg-yellow-600 rounded-full text-base md:text-lg p-2 px-6 font-semibold hover:bg-opacity-90">
+                    <span class="leading-8 flex items-center justify-center h-full">Explore Our Projects</span>
+                    <span><svg class="size-5" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="m12 16l4-4l-4-4l-1.4 1.4l1.6 1.6H8v2h4.2l-1.6 1.6zm0 6q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22"/></svg></span>
+                </a>
+            </div>
+
+            <div class="mx-auto md:mx-0 border border-yellow-600 rounded-xl w-fit p-6 space-y-2 backdrop-blur-md">
+                <p class="text-2xl font-semibold">Projects done</p>
+                <p class="flex flex-row items-center justify-center p-2">
+                    <span class="projects-odometer text-4xl font-semibold"></span>
+                    <span class="text-4xl font-semibold leading-none flex flex-row items-center -mt-2">+</span>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-black bg-opacity-90 p-4 md:p-10">
+        <div class=" font-semibold flex justify-center md:justify-start pt-4">
+            <p class=" text-lg md:text-lg capitalize inline-block border-4 border-yellow-600 leading-none text-yellow-700 p-2">SERVICES WE OFFER</p>
+        </div>
+
+        <div class="mt-6 md:mt-6 flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6">
+            <div class="p-4 md:w-[50%] rounded-xl border border-yellow-600 cursor-pointer hover:border-yellow-300 hover:bg-slate-900 hover:-translate-y-1 transition-all">
+                <img class="h-36" src="/logo.png" alt="image 1">
+                <div class="text-white opacity-80">
+                    <h2 class="text-lg font-bold">Metal work (MS and GI)</h2>
+                    <p>We do metal works with both MS and GI metals. We make gate, door, railings, ladder, windows etc. No compromises on the quality of these product.</p>
+                </div>
+            </div>
+            <div class="p-4 md:w-[50%]  rounded-xl border border-yellow-600 cursor-pointer hover:border-yellow-300 hover:bg-slate-900 hover:-translate-y-1 transition-all">
+                <img class="h-36" src="/logo.png" alt="image 1">
+                <div class="text-white opacity-80">
+                    <h2 class="text-lg font-bold">Stainless Steel work</h2>
+                    <p>We have specially skilled workers who do stainless steel works and ensures high quality of the product deliverd by us.</p>   
+                </div>
+                
+            </div>
+            <div class="p-4 md:w-[50%] rounded-xl border border-yellow-600 cursor-pointer hover:border-yellow-300 hover:bg-slate-900 hover:-translate-y-1 transition-all">
+                <img class="h-36" src="/logo.png" alt="image 1">
+                <div class="text-white opacity-80">
+                <h2 class="text-lg font-bold">Welding work</h2>
+                <p>Our workers also do any welding related works.</p>
+            </div>
+
+            </div>
+            <div class="p-4 md:w-[50%]  rounded-xl border border-yellow-600 cursor-pointer hover:border-yellow-300 hover:bg-slate-900 hover:-translate-y-1 transition-all">
+                <img class="h-36" src="/logo.png" alt="image 1">
+                <div class="text-white opacity-80">
+                <h2 class="text-lg font-bold">Sheet work</h2>
+                <p>Sheetwork includes madking rooftops for houses and buildings. It protects the house or the building from leaking and extream sunlight that can degrade the bulding that is underneath </p>
+            </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="p-4 bg-slate-800 text-white opacity-90">
+        <img src="/logo.png" alt="logo" class="w-24">
+        <h1 class="text-xl text-yellow-600 font-bold leading-normal capitalize">VISHWA ENGINEERING WORKS</h1>
+
+        <p class="mt-5">Nehru nagar road, Nellikeri, kumta <br>
+        Karnataka - 581343
+        </p>
+
+        <div class="mt-5">
+            <a href="tel:+9731453933" class="block">Ph : +91 9113063274 (Adarsh Achari)</a>
+            <a href="mailto:vishwaEngineeringWorks@gmail.com" class="block">Email : vishwaEngineeringWorks@gmail.com</a>
+            
+        </div>
+        <p class="border-t border-opacity-50 text-sm font-semibold opacity-50 text-center mt-4">All copyrights are reserved</p>
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.7/odometer.min.js"
+      integrity="sha512-v3fZyWIk7kh9yGNQZf1SnSjIxjAKsYbg6UQ+B+QxAZqJQLrN3jMjrdNwcxV6tis6S0s1xyVDZrDz9UoRLfRpWw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script>
+        const createOdometer = (el, value) => {
+        const odometer = new Odometer({
+            el: el,
+            value: 0,
+        });
+
+        let hasRun = false;
+
+        const options = {
+            threshold: [0, 0.9],
+        };
+
+        const callback = (entries, observer) => {
+            entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                if (!hasRun) {
+                odometer.update(value);
+                hasRun = true;
+                }
+            }
+            });
+        };
+
+        const observer = new IntersectionObserver(callback, options);
+        observer.observe(el);
+        };
+
+        const projectsOdometer = document.querySelector(".projects-odometer");
+        createOdometer(projectsOdometer, 125);
+    </script>
+    
+</body>
+</html>
